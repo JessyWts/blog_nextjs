@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+### Tech Stack 🔨:
+
+➡️ Next JS: https://nextjs.org/
+
+➡️ React JS: https://fr.legacy.reactjs.org/
+
+➡️ ShadCN: https://ui.shadcn.com/
+
+➡️ Tailwind CSS: https://tailwindcss.com/
+
+➡️ Firebase: https://firebase.google.com/
+
+➡️ React Hook Form: https://react-hook-form.com/
+
 ## Getting Started
 
 First, run the development server:
