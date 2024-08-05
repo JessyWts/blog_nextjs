@@ -16,6 +16,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+use a appropriate version of Node.js version >= v18.17.0 is required.
+
+```bash
+nvm use lts/hydrogen
+```
+
 First, run the development server:
 
 ```bash
