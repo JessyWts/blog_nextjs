@@ -82,7 +82,6 @@ export default function PageCreateArticle() {
           <Label htmlFor='image'>Image</Label>
           <input type='file' accept='image/gif, image/jpeg, image/jpg, image/png, image/webp' onChange={handleChange} id='image' className='cursor-pointer' />
 
-          {/* {imagePreview && <img className='w-full h-[500px] object-cover' src={imagePreview} alt='Image preview'/>} */}
           {imagePreview && <Image className='w-full h-[500px] object-cover' height={250} width={300} src={imagePreview} alt='Image preview'/>}
 
           <div className="flex items-center justify-between">
