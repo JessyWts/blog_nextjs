@@ -17,6 +17,11 @@ const nextConfig = {
                 hostname: 'firebasestorage.googleapis.com',
                 pathname: '**',
             },
+            {
+                protocol: 'https',
+                hostname: 't3.ftcdn.net',
+                pathname: '**',
+            },
         ]
     }
 };

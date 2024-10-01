@@ -58,7 +58,7 @@ export default function PageDashboard() {
           {articles.map((item, index) => (
             <Card key={index} className='p-3'>
               <div className='flex gap-2 mb-4'>
-                <Image src={item.image} alt={item.title} width={100} height={100} className='max-w-[200] h-[100] object-cover' />
+                <Image src={item.image == '' ? 'https://t3.ftcdn.net/jpg/03/45/05/92/360_F_345059232_CPieT8RIWOUk4JqBkkWkIETYAkmz2b75.jpg' : item.image} alt={item.title} width={100} height={100} className='max-w-[200] h-[100] object-cover' />
                 <div className="flex flex-col space-y-4">
                   <h3>{item.title}</h3>
                 </div>
